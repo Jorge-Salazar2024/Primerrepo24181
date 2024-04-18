@@ -1,0 +1,19 @@
+h1, h2{
+    background-color: yellow;
+    color: brown;
+}
+
+
+
+/*De esta forma al presionar en donde dice hace click, este se pondra de color rojo solo en el momento en el que lo este presionando*/
+a:link  {
+    color: red;
+    border: 3px black solid;
+    background-color: orange;
+}
+
+a:hove  {
+    color: black;
+    border: 3px green solid;
+    background-color: orange;
+} 

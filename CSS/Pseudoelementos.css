@@ -1,0 +1,39 @@
+h1, h2 {
+    color: chartreuse;
+    background-color: black;
+}
+.uno    {
+    color:#e5ff00  ;
+    background-color: black;
+}
+
+
+
+/*Pseudoelementos sirve para modificar solo una parte del documento como en este caso solo la primera letra de cada parrafo, se usa ::  tambien se puede resaltar solo la primera linea con first-line*/
+p::first-letter {
+    color: yellow;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+p::first-line {
+    color: yellow;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+/*Esto sirve para que de el color cuando seleccionamos las lineas, se pondran de color rojo por ejemplo*/
+p::selection    {
+    background-color: red;
+    color: aqua;
+}
+
+
+
+/*esto sirve para poner algo antes de la primer letra del parrafo, palabras, numeros o imagenes.Si se coloca after la palabra o imagen aparecera al final del parrafo*/
+p::before   {
+    content: "Importante ";
+}
+

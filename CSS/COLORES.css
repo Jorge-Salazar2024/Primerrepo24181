@@ -1,0 +1,29 @@
+*   {
+    background-color: rgb(249, 13, 178);/*El asterisco define en este caso el fondo para todos los elementos que tendo en la pagina*/
+}
+/*Con el asterisco que es el selector universal cambia todo dentro de la 
+pagina web, se usa para resetear paginas, para que queden en cero*/
+
+p{
+    color: rgb(2, 2, 26); background-color: yellow;
+}
+h1{
+    color: rgb(215, 9, 9); background-color: rgb(123, 206, 41); margin-left: 10px; margin-right: 10px;
+}
+h2{
+    color: rgb(19, 4, 4); background-color: greenyellow;
+}
+
+.resumen{/*debe llevar un punto adelante , se pue*/
+    font-size: 30px;/* selector class, es muy importante, se usa mucho*/
+}
+#autor  {
+    font-size: 20px; color: rgb(11, 2, 2);/*el selector id lleva un numeral adelante*/
+}
+.nombre {/* selector de class*/
+    color: black;
+    background-color: rgb(250, 252, 248);
+    font-size: 25px;/*tamaño de fuente*/
+    font-weight:bold;/*peso de fuente: negrita*/
+    font-family: fantasy;/*familia tipografica*/
+}

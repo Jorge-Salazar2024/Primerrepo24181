@@ -1,0 +1,28 @@
+*   {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{ 
+    color: blue;
+    background-color: lightblue;
+}
+
+h2{ 
+    color: green;
+    background-color: lightgreen;
+    margin-left: 20px;
+}
+
+/*:root   {
+    font-size: 30px;/* se toma como unidad de medida el root y este lo podemos cambiar a nuestro, el root no cambia nada si las medidas son absolutas solo sin son relativas*/
+}*/
+
+.tamano1{   
+    font-size: 1em;   /* es lo mismo que 16px*/
+}
+.tamano2{    
+    font-size: 2em;  /* es lo mismo que 32px*/
+}
+
+.tamano3{   
+    font-size: 0,5em;  /*es lo mismo que 8 px*/
+}

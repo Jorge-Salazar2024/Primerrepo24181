@@ -1,0 +1,47 @@
+h2,h3,p{
+    color: black ; background-color: yellowgreen;/*Para usar el selector agrupado con el caracter de la coma, se escriben las etiquetas seguidas con la coma y luego se coloca el valor o color por ejemplo y todas las etiquetas tendran el mismo valor o color esto sirve para agrupar varias etiquetas que tengan propiedades en comun*/
+}
+h1, h2  {
+    text-align: center;
+}
+
+
+
+
+
+div p   {
+    background-color: lightblue;
+}
+/*Este es la forma en que se codifica un selector descendiente, se coloca el div y luego el p (por ejemplo) luego se le coloca el color lightblue y de esta forma los dos parrafos tenfran este color o sea el div, se lo debe leer de atras hacia adelante , estan separadors por un espacio cada etiqueta  */
+
+
+
+
+
+h2{
+    color: red;/*El h2 se pone de color rojo porque al renderizar es la ultima orden del codigo, es decir primero blue arriba y luego red*/
+}
+
+
+
+/*El selector llamdo hijo directos selecciona los elementos que sean hijos directos del contenedor, en este caso p es hijo de div; se utiliza el signo >*/
+div > p     {
+    color: rgba(241, 241, 17, 0.984);
+    background-color: black;
+}
+
+
+
+/*El selector llamado hermano adyacente se aplica a estilos que le siguen inmediatamente a otros.Deben tener el mismo elto padre y ser inmediatamente a el, se usal el signo  + , o sea p es el que le sigue a h3 por eso es su hermano adyacente*/
+h3 + p  {
+    background-color: yellow;
+}
+
+
+
+/*El selector general de hermanos selecciona todos los eltos que son hermanos dle especificado, sin necesidad de que sean adyacentes.
+Se usa la virgulilla  ~( Alt + 126 ) o sea que va a modificar todo lo que este a la misma altura de una etiqueta seleccionada o elemento seleccionado es decir se define por el anidamiento*/
+h3 ~ p {
+    margin-left: 50px;
+
+}

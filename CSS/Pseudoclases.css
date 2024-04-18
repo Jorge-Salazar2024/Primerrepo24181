@@ -1,0 +1,20 @@
+h1, h2  {
+    background-color: chartreuse;
+    color: blue;
+}
+ h3{
+    color: rgb(4, 1, 11);
+    background-color: yellow;
+ }
+
+
+
+
+ /*PSEUDOCLASES :first-child quiere decir que Todos los li que sean primer hijo y que sean descendientes de ol se deben pintar de color rojo y si ubiese puesto :last-child se ubiese pintado de color rojo el ultimo item de la lista ordenada ol*/
+ ol li:first-child  {
+    color:red;
+ }
+
+ p:first-child      {/*p es primer hijo por eso cambia de color*/
+    background-color: chartreuse;
+ }                                                 
